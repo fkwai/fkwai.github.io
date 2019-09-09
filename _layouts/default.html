@@ -1,17 +1,15 @@
----
-layout: compress
----
+<!doctype html>
+<html>
 
-<!DOCTYPE html>
-<html lang="{{ site.language }}">
-    {% include head.html %}
-    <body class="has-push-menu">
-        {% include svg-icons.html %}
-        {% include header.html %}
-            <section class="content">
-                {{ content }}
-            </section>
-        {% include footer.html %}
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+
+  <body>
+    {% include navigation.html %}
+    {{ content }}
+  </body>
+
 </html>
-
