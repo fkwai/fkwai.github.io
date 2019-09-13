@@ -1,0 +1,12 @@
+body {
+  position: relative;  
+  margin: 0;
+  // border: 2px solid red;  
+  height: 100%;
+}
+body.push-right {
+  left: 15rem;
+}
+body.push-right .header {
+  left: 15rem;
+}

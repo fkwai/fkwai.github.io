@@ -1,0 +1,49 @@
+.menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.menu h1 {
+  margin: 0 1rem 0;
+  font-family: "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #141414;
+  border-bottom: 1px solid #141414;
+  line-height: 3rem;
+}
+
+.menu a {
+  padding: 1rem 0;
+  text-decoration: none;
+  font-size: 25px;
+  color: #141414;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu .item:hover {
+  color: #fff;
+  background: #ff0a16;
+}
+.menu .current {
+  color: #ff0a16;
+}
+
+.menu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}

@@ -1,0 +1,17 @@
+<!-- head of page -->
+<head>
+    <meta charset="utf-8">
+    {% if page.title %}
+    {% assign description = page.title%}
+    {% else %}
+    {% assign description = site.description %}
+    {% endif %}
+
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ page.title }}">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+{% include svg-icons.html %}

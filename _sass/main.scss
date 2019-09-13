@@ -1,3 +1,8 @@
-.current {
-  color: green;
+#main {
+  transition: margin-left 0.5s;
+  margin: 0
 }
+@import "body";
+@import "header";
+@import "menu";
+// @import "jekflix";

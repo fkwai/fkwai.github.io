@@ -1,0 +1,19 @@
+name: Kuai Fang
+title: K.Fang's website
+description: A webpage for nothing
+
+
+collections:
+  authors:
+    output: true
+  chapters:
+    output: true
+
+
+defaults:
+  - scope:
+      path: ""
+      name: "index"
+    values:
+      layout: "index"
+
