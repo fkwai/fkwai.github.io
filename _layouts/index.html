@@ -1,19 +1,10 @@
 ---
 layout: default
 ---
-<h1>layout index</h1>
-<h2>{{page.collection | inspect}}</h2>
-<h3>{{site[page.collection] | inspect}}</h3>
 
-
-<ul>
-    {% for item in site[page.collection] %}    
-    <li>
-        <h1><a href="{{ item.url }}">{{ item.name }}</a></h2>
-    </li>
-    {% endfor %}
-</ul>
-<h1>layout index</h1>
-
+<section class="hero" style="background-image: url({{ page.image }})">
+    <div class="pixels"></div>
+    <div class="gradient"></div>
+</section>
 
 {{ content }}
